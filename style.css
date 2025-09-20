@@ -1,0 +1,132 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente base */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===================== NAV ===================== */
+nav {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  position: relative;
+}
+
+/* Lista de enlaces */
+.enlaces-header {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlaces-header li {
+  margin-left: 20px;
+}
+
+.enlaces-header a {
+  text-decoration: none;
+  color: #5D6678;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.enlaces-header a:hover {
+  background-color: #d03d3d;
+  color: #fff;
+}
+
+/* ===================== HAMBURGER ===================== */
+.hamburguer {
+  position: absolute;
+  right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* ===================== HEADER ===================== */
+.contenido-header {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto 0 auto; /* deja espacio por el nav fijo */
+}
+
+.contenido-header img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+.contenido-header a {
+    margin: 28px 0 0 0;
+    width: 150px;
+    display: block;
+    background: #d03d3d;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(97, 31, 31, 0.46);
+    margin: 28px auto 0;
+}
+
+.textos-header p { 
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.titulospro { 
+    margin-top: 20px;
+}
+
+/* ===================== RESPONSIVE ===================== */
+@media screen and (max-width: 768px) {
+  .enlaces-header {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: #fff;
+    width: 100%;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%); /* oculto fuera de pantalla */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .enlaces-header.active {
+    transform: translateX(0); /* aparece */
+  }
+
+  .hamburguer {
+    display: block; /* ahora sí visible en móvil */
+  }
+}
