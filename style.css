@@ -609,8 +609,8 @@ footer {
 
 
 
-/* Hasta 4800px */
-@media screen and (max-width:480px) {
+/* Hasta 480px */
+@media screen and (max-width:380px) {
     h1 { font-size: 25px; }
     .contenido-header { width: 100%; height: auto; }
     .contenido-header > img { width: 120px; height: 120px; margin: 20px 0; }
@@ -630,7 +630,11 @@ footer {
         flex-direction: column;
         clip-path: circle(0.0% at 0 0);
     }
-    .nav .hamburgueropen { clip-path: circle(150% at 0 0); }
+    .titulospro  { text-align:center;}
+    .enlaces-header.active {
+  clip-path: circle(150% at 0 0);
+}
+
     .nav .enlaces-header a {
         color: #fff;
         background-color: #cf6c6c;
