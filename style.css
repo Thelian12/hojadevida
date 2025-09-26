@@ -630,7 +630,7 @@ footer {
         flex-direction: column;
         clip-path: circle(0.0% at 0 0);
     }
-    .titulospro  { text-align:center;}
+    .titulospro  { text-align:justify;}
     .enlaces-header.active {
   clip-path: circle(150% at 0 0);
 }

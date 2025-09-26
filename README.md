@@ -8,15 +8,15 @@
 
 ## 🚀 Sobre mí
 - 📚 Me gusta combinar lo jurídico con la tecnología.  
-- 🌐 Estoy practicando con proyectos como clonar páginas web (Google, Netflix, CineColombia, etc.).  
+- 🌐 Estoy practicando con proyectos como clonar páginas web.
 - 🎯 Objetivo: Convertirme en desarrollador full stack.  
 
 ---
 
 ## 📫 Cómo contactarme
-- ✉️ Email: tuemail@example.com  
-- 💼 LinkedIn: [Tu Perfil](https://www.linkedin.com/)  
-- 🐙 GitHub: [Tu Usuario](https://github.com/tuusuario)  
+- ✉️ Email: leanrj14@gmail.com 
+- 💼 LinkedIn: https://www.linkedin.com/in/leandro-rincon-3b110126b/
+- 🐙 GitHub:   https://github.com/Thelian12
 
 ---
 
