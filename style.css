@@ -598,18 +598,25 @@ footer {
     .iconos-info .item img { width: 50px; height: 50px; }
     .partfooter { width: 95%; text-align: center; margin: auto; }
     .titulospro { text-align: center;}
+    .educacion .card{
+      width: 90%;
+    }
+      .habilidades .skills {
+        width: 90%;
+      }
 }
 
 
 
-/* Hasta 600px */
-@media screen and (max-width:200px) {
+
+/* Hasta 4800px */
+@media screen and (max-width:480px) {
     h1 { font-size: 25px; }
     .contenido-header { width: 100%; height: auto; }
     .contenido-header > img { width: 120px; height: 120px; margin: 20px 0; }
     .skills, .card, .card-certificado { width: 90%; margin: 10px auto; }
     .iconos-info .item img { width: 40px; height: 40px; }
-    footer { flex-direction: column; }
+    footer { flex-direction: column; align-items:center; text-align:center;}
     .partfooter img { display: none; }
     .enlaces-header {
         position: fixed;
